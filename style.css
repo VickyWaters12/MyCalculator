@@ -21,7 +21,6 @@ body{
     background-color: rgb(240, 233, 233);
 }
 #keys{
-    width: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -63,18 +62,15 @@ button:hover{
 }
 @media(max-width:768px) {
     #calculator{
-        width: 80%;
+        width: 100%;
         font-size: 14px;
         justify-content: center;
     }
-    #keys{
-    width: 80%;
-}
 
 }
 @media(max-width:480px) {
     #calculator{
-        width: 80%;
+        width: 100%;
         font-size: 14px;
         justify-content: center;
     }
