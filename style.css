@@ -70,7 +70,7 @@ button:hover{
 }
 @media(max-width:480px) {
     #calculator{
-        width: 100%;
+        width: 80%;
         font-size: 14px;
         justify-content: center;
     }
