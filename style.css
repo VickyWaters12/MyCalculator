@@ -9,12 +9,9 @@ body{
 #calculator{
     font-family: Arial, sans-serif;
     background-color: rgb(41, 40, 40);
-/*     border-radius: 25px; */
+    border-radius: 50px;
     max-width: 400px;
     overflow: hidden;
-    height: 585px;
-    justify-content: center;
-    align-items: center;
 }
 #display{
     padding: 20px;
